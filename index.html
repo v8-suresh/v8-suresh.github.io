@@ -8,6 +8,18 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <style type="text/css">
+      .bodyPad{
+        margin: 5px 25px;
+      }
+      .bodyLargeLPad{
+        margin: 10px 150px;
+      }
+      .verticalPad{
+        margin: 30px 0px;
+      }
+    </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,15 +29,76 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world From v8-suresh through github io!</h1>
-    <div class="btn-group btn-group-sm btn-group-justified">
-      <button type="button" class="btn btn-default">Left</button>
-      <button type="button" class="btn btn-default">Middle</button>
-      <button type="button" class="btn btn-default">Right</button>
+    <nav class="navbar navbar-default" role="navigation">
+    </nav>
+
+    <div class="bodyPad">
+      <div class="btn-group btn-group-justified verticalPad">
+        <a href="#hadoopApps" class="btn btn-default" role="button">hadoop-apps</a>
+        <a class="btn btn-default" role="button">jerseyRest</a>
+        <a class="btn btn-default" role="button">dev-project-root</a>
+        <a class="btn btn-default" role="button">angular</a>
+<!--       </div>
+      <div class="btn-group btn-group-justified verticalPad"> -->
+        <a class="btn btn-default" role="button">hadoop-utils</a>
+        <a class="btn btn-default" role="button">my-private-repo</a>
+      </div>
     </div>
+
+    <div id="carousel-example-generic" class="carousel verticalPad" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+             <div class="panel panel-default panel-info bodyLargeLPad">
+              <div class="panel-heading">
+                <h3 class="panel-title">hadoop-apps</h3>
+              </div>
+              <div class="panel-body">
+                Hadoop Apps Content
+              </div>
+            </div>           
+          </div>
+
+          <div class="item">
+             <div class="panel panel-default panel-info bodyLargeLPad">
+              <div class="panel-heading">
+                <h3 class="panel-title">jerseyResy</h3>
+              </div>
+              <div class="panel-body">
+                Jersey Rest Content
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+             <div class="panel panel-default panel-info bodyLargeLPad">
+              <div class="panel-heading">
+                <h3 class="panel-title">dev-project-root</h3>
+              </div>
+              <div class="panel-body">
+                Dev Project Root Content
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>
 </html>
+
+
