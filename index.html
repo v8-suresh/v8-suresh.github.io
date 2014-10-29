@@ -142,13 +142,13 @@
             </ul>
             <ul class="nav navbar-nav pull-right green">
                 <li>
-                    <a id="prevoius" href="#">Previous</a>
+                    <a id="prev" href="#">Previous</a>
                 </li>
                 <li>
-                    <a id="stop" href="#">Stop</a>
+                    <a id="pause" href="#">Pause</a>
                 </li>
                 <li>
-                    <a id="resume" href="#">Resume</a>
+                    <a id="cycle" href="#">Resume</a>
                 </li>
                 <li>
                     <a id="next" href="#">Next</a>
@@ -161,33 +161,40 @@
 </nav>
 
 <!-- Full Page Image Background Carousel Header -->
-<header id="myCarousel" class="carousel slide">
+<header id="carousel" class="carousel slide">
     <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
+    <ol class="carousel-indicators blueBg">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for Slides -->
     <div class="carousel-inner">
         <div class="item active">
             <!-- Set the first background image using inline CSS below. -->
-            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+            <div class="fill" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==');">
+
+            </div>
             <div class="carousel-caption">
                 <h2>Caption 1</h2>
             </div>
         </div>
         <div class="item">
-            <!-- Set the second background image using inline CSS below. -->
-            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+            <!--<div class="fill" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==');"></div>-->
+            <div class="">
+                <div class="carousel-caption">
+                    <h1>Another example headline.</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </div>
+            </div>
             <div class="carousel-caption">
                 <h2>Caption 2</h2>
             </div>
         </div>
         <div class="item">
             <!-- Set the third background image using inline CSS below. -->
-            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+            <div class="fill" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==');"></div>
             <div class="carousel-caption">
                 <h2>Caption 3</h2>
             </div>
@@ -195,10 +202,10 @@
     </div>
 
     <!-- Controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <a class="left carousel-control" href="#carousel" data-slide="prev">
         <span class="icon-prev"></span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <a class="right carousel-control" href="#carousel" data-slide="next">
         <span class="icon-next"></span>
     </a>
 
@@ -209,8 +216,8 @@
 
     <div id="about" class="row">
         <div class="col-lg-12">
-            <h1>Full Slider by Start Bootstrap</h1>
-            <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the <code>full-slider.css</code>file.</p>
+            <h1>v8-suresh - about statement</h1>
+            <p><code>v8-suresh.github.com</code></p>
         </div>
     </div>
 
@@ -221,9 +228,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <p>Copyright &copy;
-                    <a target="_blank" href="https://github.com/v8-suresh">https://github.com/v8-suresh</a>
+                    <a target="_blank" href="https://github.com/v8-suresh"><code>https://github.com/v8-suresh</code></a>
                     <span class="boldFont"> | </span>
-                    <a target="_blank" href="https://v8-suresh.github.io">https://v8-suresh.github.io</a></p>
+                    <a target="_blank" href="https://v8-suresh.github.io"><code>https://v8-suresh.github.io</code></a></p>
             </div>
         </div>
         <!-- /.row -->

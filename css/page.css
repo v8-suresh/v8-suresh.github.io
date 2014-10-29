@@ -188,3 +188,20 @@ footer {
 .green {
     color: chartreuse;
 }
+
+.carContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+
+.blueBg li{
+    background-color: red;
+}
+.blueBg .active{
+    background-color: red;
+    border: 1px solid red;
+}
