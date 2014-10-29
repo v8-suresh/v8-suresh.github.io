@@ -179,7 +179,9 @@ footer {
 .appHeader{
     font-weight: bolder;
 }
-
+.boldFont {
+    font-weight: bold;
+}
 .pullRight{
     float: right;
 }
