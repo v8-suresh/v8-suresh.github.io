@@ -35,31 +35,7 @@
 /*}*/
 
 
-/* CUSTOMIZE THE CAROUSEL*/
-/*-------------------------------------------------- */
 
-/* Carousel base class */
-/*.carousel {*/
-    /*height: 600px;*/
-    /*margin-bottom: 60px;*/
-/*}*/
-/* Since positioning the image, we need to help out the caption */
-/*.carousel-caption {*/
-    /*z-index: 10;*/
-/*}*/
-
-/* Declare heights because of positioning of img element */
-/*.carousel .item {*/
-    /*height: 600px;*/
-    /*background-color: #777;*/
-/*}*/
-/*.carousel-inner > .item > img {*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*min-width: 100%;*/
-    /*height: 600px;*/
-/*}*/
 
 
 
@@ -153,7 +129,7 @@ body {
 .carousel,
 .item,
 .active {
-    height: 70%;
+    height: 50%;
 }
 
 .carousel-inner {
@@ -162,15 +138,15 @@ body {
 
 /* Background images are set within the HTML using inline CSS, not here */
 
-.fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
+/*.fill {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background-position: center;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*background-size: cover;*/
+    /*-o-background-size: cover;*/
+/*}*/
 
 footer {
     margin: 50px 0;
@@ -190,14 +166,14 @@ footer {
     color: chartreuse;
 }
 
-.carContainer {
-    position: absolute;
-    top: 100;
-    right: 0;
-    left: 0;
-    z-index: 20;
+/*.carContainer {*/
+    /*position: absolute;*/
+    /*top: 100;*/
+    /*right: 0;*/
+    /*left: 0;*/
+    /*z-index: 20;*/
     /*border: 1px solid black;*/
-}
+/*}*/
 
 
 .blueBg li{
@@ -238,5 +214,49 @@ body {
 
 .navIcon{
     font-size: 70px !important;
+    font-weight: bolder;
     color: #0072cc;
 }
+
+.carContainer {
+    /*border-bottom: 1px solid #0072cc;*/
+    /*border-top: 1px solid #0072cc;*/
+    position: relative; top: 10%;
+    /*background-color: #dedede;*/
+}
+.abtMeContainer {
+    position: relative; top: 10%;
+}
+
+.footerContainer{
+    position: relative; top: 10%;
+}
+
+
+
+
+
+
+
+
+/*.carousel {*/
+    /*height: 600px;*/
+    /*margin-bottom: 60px;*/
+/*}*/
+/*.carousel-caption {*/
+    /*z-index: 10;*/
+/*}*/
+
+/*.carousel .item {*/
+    /*height: 600px;*/
+    /*background-color: #777;*/
+/*}*/
+/*.carousel-inner > .item > img {*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*min-width: 100%;*/
+    /*height: 600px;*/
+/*}*/
+
+
