@@ -199,9 +199,9 @@ footer {
 
 
 .blueBg li{
-    background-color: red;
+    background-color: #0072c6;
 }
 .blueBg .active{
-    background-color: red;
-    border: 1px solid red;
+    background-color: #0072c6;
+    border: 2px solid #0072c6;
 }
