@@ -220,10 +220,10 @@ body {
 }
 
 .carContainer {
-    border-bottom: 1px solid #0072cc;
-    border-top: 1px solid #0072cc;
+    /*border-bottom: 1px solid #0072cc;*/
+    /*border-top: 1px solid #0072cc;*/
     position: relative; top: 10%;
-    /*background-color: #dedede;*/
+    background-color: #f5f5f5;
 }
 .abtMeContainer {
     position: relative; top: 10%;
@@ -243,7 +243,7 @@ body {
 
 .projContent{
     /*border: dashed blue 1px;*/
-    padding: 20px 20px;
+    padding: 20px 10px;
 }
 
 .projPoint{
