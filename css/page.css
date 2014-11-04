@@ -247,7 +247,10 @@ body {
     padding: 20px 10px;
     color: #888;
 }
-
+.projHeader:hover{
+    color:#0072cc ;
+    cursor: pointer;
+}
 .projPoint{
     font-size: 14px;
     font-weight: normal;
