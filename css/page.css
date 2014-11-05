@@ -2,6 +2,8 @@
 html,
 body {
     height: 100%;
+    background-color: #f0f7fc;
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
 }
 
 .carousel,
@@ -111,6 +113,7 @@ body {
     /*border-bottom: 1px solid #0072cc;*/
     /*border-top: 1px solid #0072cc;*/
     position: relative; top: 10%;
+    background-color: #ffffff;
     /*background-color: #0072c6;*/
     /*background-color: #0072c6*/
 }
