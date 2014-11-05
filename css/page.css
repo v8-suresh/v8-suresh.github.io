@@ -1,125 +1,3 @@
-/* GLOBAL STYLES*/
-/*-------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-/*body {*/
-    /*padding-bottom: 40px;*/
-    /*color: #5a5a5a;*/
-/*}*/
-
-
-
-/* CUSTOMIZE THE NAVBAR*/
-/*-------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-/*.navbar-wrapper {*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*right: 0;*/
-    /*left: 0;*/
-    /*z-index: 20;*/
-/*}*/
-
-/* Flip around the padding for proper display in narrow viewports */
-/*.navbar-wrapper > .container {*/
-    /*padding-right: 0;*/
-    /*padding-left: 0;*/
-/*}*/
-/*.navbar-wrapper .navbar {*/
-    /*padding-right: 15px;*/
-    /*padding-left: 15px;*/
-/*}*/
-/*.navbar-wrapper .navbar .container {*/
-    /*width: auto;*/
-/*}*/
-
-
-
-
-
-
-/* MARKETING CONTENT*/
-/*-------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-/*.marketing .col-lg-4 {*/
-    /*margin-bottom: 20px;*/
-    /*text-align: center;*/
-/*}*/
-/*.marketing h2 {*/
-    /*font-weight: normal;*/
-/*}*/
-/*.marketing .col-lg-4 p {*/
-    /*margin-right: 10px;*/
-    /*margin-left: 10px;*/
-/*}*/
-
-
-/* Featurettes*/
-/*------------------------- */
-
-/*.featurette-divider {*/
-    /*margin: 80px 0; *//* Space out the Bootstrap <hr> more */
-/*}*/
-
-/* Thin out the marketing headings */
-/*.featurette-heading {*/
-    /*font-weight: 300;*/
-    /*line-height: 1;*/
-    /*letter-spacing: -1px;*/
-/*}*/
-
-
-
-/* RESPONSIVE CSS*/
-/*-------------------------------------------------- */
-
-/*@media (min-width: 768px) {*/
-
-    /* Navbar positioning foo */
-    /*.navbar-wrapper {*/
-        /*margin-top: 20px;*/
-    /*}*/
-    /*.navbar-wrapper .container {*/
-        /*padding-right: 15px;*/
-        /*padding-left: 15px;*/
-    /*}*/
-    /*.navbar-wrapper .navbar {*/
-        /*padding-right: 0;*/
-        /*padding-left: 0;*/
-    /*}*/
-
-    /* The navbar becomes detached from the top, so we round the corners */
-    /*.navbar-wrapper .navbar {*/
-        /*border-radius: 4px;*/
-    /*}*/
-
-    /* Bump up size of carousel content */
-    /*.carousel-caption p {*/
-        /*margin-bottom: 20px;*/
-        /*font-size: 21px;*/
-        /*line-height: 1.4;*/
-    /*}*/
-
-    /*.featurette-heading {*/
-        /*font-size: 50px;*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 992px) {*/
-    /*.featurette-heading {*/
-        /*margin-top: 120px;*/
-    /*}*/
-/*}*/
-
-
-
-/*!
- * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
 
 html,
 body {
@@ -135,18 +13,6 @@ body {
 .carousel-inner {
     height: 100%;
 }
-
-/* Background images are set within the HTML using inline CSS, not here */
-
-/*.fill {*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*background-position: center;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*background-size: cover;*/
-    /*-o-background-size: cover;*/
-/*}*/
 
 footer {
     margin: 50px 0;
@@ -203,7 +69,7 @@ ul.nav a:hover {
 
 body {
     /*font-family: "Helvetica", "Arial", "FreeSans", "Verdana", "Tahoma", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", sans-serif;*/
-    fontont: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    fontont: 13px/1.4 Menlo,Monaco,Consolas,"Courier New",monospace !important;
 }
 
 .carousel-control.left{
@@ -218,6 +84,12 @@ body {
     font-weight: bolder;
     color: #0072cc;
 }
+.slideContainer{
+    margin-right: 15%;
+    margin-left: 15%;
+    max-width: 70%;
+}
+
 
 .carContainer {
     /*border-bottom: 1px solid #0072cc;*/
@@ -236,14 +108,16 @@ body {
 }
 
 .projHeader{
-    padding: 20px 10px;
-    color: #888;
-    font: normal normal bolder 16px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 70px 0px 20px 0px;
+    font-size: 120%;
+    color: inherit;
+    background-color: inherit;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
 
 .projContent{
     /*border: dashed blue 1px;*/
-    padding: 20px 10px;
+    padding: 10px 30px;
     color: #888;
 }
 .projHeader:hover{
@@ -258,7 +132,7 @@ body {
 
 .projFooter{
     /*border: dashed red 1px;*/
-    padding: 20px 20px;
+    padding: 20px 30px;
 }
 
 .projContent{
@@ -282,11 +156,7 @@ body {
     background-repeat: repeat-x;
     border: 1px solid #d5d5d5;
     border-radius: 3px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-appearance: none;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace !important;
 }
 .repository-with-sidebar .repository-sidebar .sidebar-button {
     margin: 0 0 10px;
@@ -303,61 +173,34 @@ body {
     font-weight: bolder;
 }
 
+code{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #0072cc;
+    background-color: #e5f4ff;
+    border-radius: 4px;
+}
 
+.codeTxt{
+    padding: 2px 4px;
+    /*font-size: 90%;*/
+    color: inherit;
+    background-color: inherit;
+}
+.codeTxtBorder{
+    border: 1px solid #ccc;
+}
+.codeTxtPad{
+    margin-left: 30px;
+}
+.codeTxtBold{
+    font-weight: bold;
+    /*color: #0072cc;*/
+    font-size: 110%;
+}
 
-
-/*.projBtn{*/
-    /*position: relative;*/
-    /*display: inline-block;*/
-    /*padding: 3px 12px;*/
-    /*font-size: 13px;*/
-    /*font-weight: bold;*/
-    /*color: #333;*/
-    /*text-shadow: 0 1px 0 rgba(255,255,255,0.9);*/
-    /*white-space: nowrap;*/
-    /*vertical-align: middle;*/
-    /*cursor: pointer;*/
-    /*background-color: #eee;*/
-    /*background-image: -webkit-linear-gradient(#fcfcfc, #eee);*/
-    /*background-image: linear-gradient(#fcfcfc, #eee);*/
-    /*background-repeat: repeat-x;*/
-    /*border: 1px solid #d5d5d5;*/
-    /*border-radius: 3px;*/
-    /*font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";*/
-    /*text-decoration: none;*/
-    /*background-color: #ddd;*/
-    /*background-image: -webkit-linear-gradient(#eee, #ddd);*/
-    /*background-image: linear-gradient(#eee, #ddd);*/
-    /*background-repeat: repeat-x;*/
-    /*border-color: #ccc;*/
-    /*padding: 2px 10px;*/
-    /*font-weight: 400;*/
-    /*font-size: 16px;*/
-/*}*/
-
-
-
-
-
-
-/*.carousel {*/
-    /*height: 600px;*/
-    /*margin-bottom: 60px;*/
-/*}*/
-/*.carousel-caption {*/
-    /*z-index: 10;*/
-/*}*/
-
-/*.carousel .item {*/
-    /*height: 600px;*/
-    /*background-color: #777;*/
-/*}*/
-/*.carousel-inner > .item > img {*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*min-width: 100%;*/
-    /*height: 600px;*/
-/*}*/
-
-
+.codeTxtBolder{
+    font-weight: bolder;
+    /*color: #0072cc;*/
+    font-size: 1.4em;
+}
