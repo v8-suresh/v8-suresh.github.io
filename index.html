@@ -26,7 +26,7 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-fixed-top topNavBar" role="navigation">
     <div class="container customNav">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -36,27 +36,25 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a target="_blank" class="navbar-brand appHeader" href="https://github.com/v8-suresh">V8-Suresh</a>
+            <a target="_blank" class="navbar-brand siteHeader" href="https://github.com/v8-suresh"><span class="mega-octicon octicon-code"></span>&nbsp;&nbsp;V8-Suresh</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav pull-right">
                 <li>
-                    <a href="#about">About</a>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav pull-right green">
-                <li>
-                    <a id="prev" href="#">Previous</a>
+                    <a id="prev" href="#" class="whiteFont">Previous</a>
                 </li>
                 <li>
-                    <a id="pause" href="#">Pause</a>
+                    <a id="pause" href="#" class="whiteFont">Pause</a>
                 </li>
                 <li>
-                    <a id="cycle" href="#">Resume</a>
+                    <a id="cycle" href="#" class="whiteFont">Resume</a>
                 </li>
                 <li>
-                    <a id="next" href="#">Next</a>
+                    <a id="next" href="#" class="whiteFont">Next</a>
+                </li>
+                <li>
+                    <a href="#about" class="whiteFont">About</a>
                 </li>
             </ul>
         </div>
@@ -78,12 +76,12 @@
         <div class="item active">
             <div class="container slideContainer">
                 <div class="projHeader">
-                    <span class="mega-octicon octicon-file-code">&nbsp;&nbsp;
-                        <code class="codeTxt codeTxtBolder">This is Project Header</code>
+                    <span class="mega-octicon octicon-three-bars hashFont">&nbsp;&nbsp;
+                        <code class="codeTxt projHeaderTxt hashFont">This is Project Header</code>
                     </span>
                 </div>
                 <div class="projContent">
-                    <span class="octicon octicon-link-external projPoint">&nbsp;&nbsp;
+                    <span class="octicon octicon-chevron-right projPoint">&nbsp;&nbsp;
                         <code class="codeTxt codeTxtBold">Technologies : </code>
                         <br/><br/>
                         <a href="#"><code class="codeTxt codeTxtBorder codeTxtPad">Java/J2EE</code></a>
@@ -92,15 +90,14 @@
                         <a href="#"><code class="codeTxt codeTxtBorder">Sencha Touch</code></a>
                         <a href="#"><code class="codeTxt codeTxtBorder">Sencha GXT</code></a>
                         <a href="#"><code class="codeTxt codeTxtBorder">Spring</code></a>
-                        <br/><br/>
-                        <a href="#"><code class="codeTxt codeTxtBorder codeTxtPad">SOLR</code></a>
+                        <a href="#"><code class="codeTxt codeTxtBorder">SOLR</code></a>
                         <a href="#"><code class="codeTxt codeTxtBorder">Cloudera</code></a>
                     </span>
                     <br/><br/>
-                    <span class="octicon octicon-link-external projPoint">&nbsp;&nbsp;
+                    <span class="octicon octicon-chevron-right projPoint">&nbsp;&nbsp;
                         <code class="codeTxt codeTxtBold" >Description : </code>
                         <br/><br/>
-                        <code class="codeTxt codeTxtPad">
+                        <code class="codeTxt codeTxtPad descTxt">
                             Some Very Big Description Text...Some Very Big Description Text...
                             Some Very Big Description Text...Some Very Big Description Text...Some Very Big Description Text...
                             Some Very Big Description Text...
@@ -109,7 +106,7 @@
                     </span>
                 </div>
                 <div class="projFooter">
-                    <a class="minibutton sidebar-button1" href="#"><span class="octicon octicon-link-external">&nbsp;&nbsp;<code class="codeTxt">I want to check it out...</code> </span></a>
+                    <a class="minibutton" href="#"><span class="octicon octicon-repo-pull">&nbsp;&nbsp;<code class="codeTxt">Take me to Project Code Repository</code> </span></a>
                 </div>
             </div>
         </div>
