@@ -1,0 +1,23 @@
+{
+  "name": "v8-suresh.github.io",
+  "version": "1.0.0",
+  "description": "github page home folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v8-suresh/v8-suresh.github.io.git"
+  },
+  "author": "Suresh Sivanantham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v8-suresh/v8-suresh.github.io/issues"
+  },
+  "homepage": "https://github.com/v8-suresh/v8-suresh.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.1.0"
+  }
+}
