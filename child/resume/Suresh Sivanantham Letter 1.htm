@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:doc="http://xsltsl.org/xsl/documentation/1.0" xmlns:dt="http://xsltsl.org/date-time" xmlns:str="http://xsltsl.org/string" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-16">
+    <title>Suresh Sivanantham</title>
+    <style type="text/css" id="static">
+    html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+    body{line-height:1;background:#FFF;text-align:left}
+	body {line-height: 1; background: #FFF; text-align: left; font-feature-settings: "liga" 0; -moz-font-feature-settings: "liga" off;}
+    ol,ul{list-style:none}
+    blockquote,q{quotes:none}
+    blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+    :focus{outline:0}
+    ins{text-decoration:none}
+    del{text-decoration:line-through}
+    table{border-collapse:collapse;border-spacing:0}
+    a img{border:none}
+    ul,li{list-style-type:disc;margin:0 0 0 10px;padding:0}
+    ul li{margin:0 0 0 13px}
+    .clear{clear:both;height:0}
+    br.clear{line-height:0}
+    div.name{font-size:15px;font-weight:bold;line-height:17px;padding:0;text-transform:uppercase;border-top:6px solid #58585B;padding:18px 0 0 0}
+    div.logo{display:none}
+    div.paragraph{position:relative}
+    div.heading{clear:both;color:#231F20;text-transform:uppercase;font-style:italic;font-weight:bold}
+    div.address,div.address2{position:relative;font-size:0.917em;line-height:1.25em;color:#808284}
+    div.address{text-transform:uppercase}
+    .grayItl{font-style:italic;color:#C3C3C3}
+    span.companyname,span.degree,div.smry,span.skils{font-weight:bold}
+    span.companyname,span.degree{text-transform:uppercase}
+    span.email{color:#00ADEF;text-transform:lowercase}
+    .table_wrapper{width:100%;margin-top:0}
+    table.twocol td{width:50%}
+    table.twocol{width:100%}
+    span.paddedline{display:block}
+    .nodisplay{display:none}
+    div#document{color:#666;}<!--to remove background-color later at time of delivery-->
+    div#document p font{color:#666!important}
+    td.twocol_2{border-left:1px  solid #FFF}
+
+    /*FIX for FORCEFULLY making left margin ZERO for CL*/
+    div#document .sectionCL{border:none!important}
+    div#document .sectionCL .paragraph{margin-top:0!important}
+  </style>
+    <style type="text/css" id="unparsed">
+    div#document{line-height:{$FTLH}px;color:#404041}
+    div#document table{line-height:{$FTLH}px}
+    div#document.pagesize{width:{$DOCW}px;}
+    div#document.vmargins{padding-top:{$TBMR}px;padding-bottom:{$TBMR}px;}
+    div#document.hmargins{padding-left:{$LRMR}px;padding-right:{$LRMR}px;}
+    div#document .section{margin-top:{$SCSP}px;border-top:{$LNWT}px solid #B2B0BF}
+    div#document div.firstsection{margin-top:0;border:none;}
+    div#document div.SECTION_CNTC{margin-top:0;padding-bottom:{$CIMB}px;border:none}
+    div#document div.heading{margin-bottom:{$SHMB}px}
+    div#document div.paragraph{margin-top:{$PSPC}px}
+    div#document div.firstparagraph{margin-top:0}
+    div#document .singlecolumn,div#document .maincolumn{margin-left:{$PIND}px;width:{$MACW}px}
+    .fontsize{font-size:{$FTSZ}px}
+    .fontface{font-family:{$FTFC}}
+    div#document div.sectiontitle{font-size:{$HDSZ}px;line-height:{$HDLH}px}
+    div.name{font-size:{$NMSZ}px;line-height:{$NMLH}px}
+    div.address{font-size:{$CISZ}px;line-height:{$CILH}px}
+    div.smry{font-size:{$SMRY}px}
+    div#document table.skills td{padding-top:{$TDMT}px}
+
+    /*FIX for Re-calculating width of singlecolumn for CL*/
+    div#document .sectionCL .singlecolumn{margin-left:0!important;width:100%}
+    div.address2{font-size:{$FTSZ}px;line-height:{$FTLH}px}
+    div#document .sectionDateCL{padding-top:{$SCSP}px}
+  </style>
+    <style type="text/css" id="dynamic">
+    div#document{line-height:17px;color:#404041}
+    div#document table{line-height:17px}
+    div#document.pagesize{width:512px;}
+    div#document.vmargins{padding-top:25px;padding-bottom:25px;}
+    div#document.hmargins{padding-left:50px;padding-right:50px;}
+    div#document .section{margin-top:7px;border-top:0px solid #B2B0BF}
+    div#document div.firstsection{margin-top:0;border:none;}
+    div#document div.SECTION_CNTC{margin-top:0;padding-bottom:6px;border:none}
+    div#document div.heading{margin-bottom:2px}
+    div#document div.paragraph{margin-top:4px}
+    div#document div.firstparagraph{margin-top:0}
+    div#document .singlecolumn,div#document .maincolumn{margin-left:0px;width:512px}
+    .fontsize{font-size:11px}
+    .fontface{font-family:"Palatino Linotype", Palatino, serif}
+    div#document div.sectiontitle{font-size:15px;line-height:27px}
+    div.name{font-size:22px;line-height:34px}
+    div.address{font-size:10px;line-height:23px}
+    div.smry{font-size:12px}
+    div#document table.skills td{padding-top:2px}
+
+    /*FIX for Re-calculating width of singlecolumn for CL*/
+    div#document .sectionCL .singlecolumn{margin-left:0!important;width:100%}
+    div.address2{font-size:11px;line-height:17px}
+    div#document .sectionDateCL{padding-top:7px}
+  </style>
+  <!-- INSERT BY TRANSFORMER. SELECTOR=head,LOCATION=append --><meta name="_globalsign-domain-verification" content="ZBniDfVDF5r6AMHLc1FJlg2LXz3IruNvy-I9v8rwEe" /></head>
+  <body>
+    <div id="document" class="fontsize fontface vmargins hmargins linespacing pagesize">
+      <div id="SECTION_NAME972848352" class="section firstsection" style="padding-top:0px;">
+        <div id="PARAGRAPH_972848352_1_643003105" class="paragraph PARAGRAPH_NAME firstparagraph">
+        <div class="name">
+          <span class="field" id="972848352FNAM1">Suresh</span> <span> </span> <span class="field" id="972848352LNAM1">Sivanantham</span>
+        </div>
+      </div>
+      </div>
+      <div id="SECTION_CNTC972848353" class="section SECTION_CNTC" style="padding-top:0px;">
+        <div id="PARAGRAPH_972848353_1_643003106" class="paragraph PARAGRAPH_CNTC firstparagraph">
+        <div class="address">
+          <span class="paddedline">
+            <span class="field" id="972848353STRT1">Preserve Lake Drive</span><span>, </span><span class="spaced field" id="972848353CITY1">Westchase</span><span>, </span><span class="spaced field" id="972848353STAT1">FL</span><span> </span><span class="spaced field" id="972848353ZIPC1">33626</span>
+          </span>
+          <span class="paddedline">
+            <span class="field" id="972848353HPHN1"></span>
+            
+            <span>C: </span><span class="field" id="972848353CPHN1">8139951939</span>
+            <span> | </span>
+            <span class="field email" id="972848353EMAI1">suresh.sivanantham@gmail.com</span>
+          </span>
+        </div>
+      </div>
+      </div>
+      <div id="SECTION_OPEN972848355" class="section sectionCL" style="padding-top:0px;">
+        <div id="PARAGRAPH_972848355_1_643003108" class="paragraph firstparagraph">
+        <div class="field singlecolumn" id="972848355FRFM1">
+      <P ALIGN="LEFT"> Dear <span style="color: #FF6600">[Ms. or Mr. Last Name]</span>, </P> <br/> <P ALIGN="LEFT"> I am writing in response to the advertisement posted for <span style="color: #FF6600">[Position]</span> with <span style="color: #FF6600">[Company Name]</span>. As an experienced software engineer with expert knowledge in <span style="color: #FF6600">[list relevant programming languages]</span>, I feel confident that I am the right person to help <span style="color: #FF6600">[Company Name]</span> reach the next level of success. </P>
+    </div>
+      </div>
+      </div>
+      <div id="SECTION_BODY972848356" class="section sectionCL" style="padding-top:0px;">
+        <div id="PARAGRAPH_972848356_1_643003109" class="paragraph firstparagraph">
+        <div class="field singlecolumn" id="972848356FRFM1"><p style="text-align: left;">I offer <span style="color: #FF6600">[Number]</span> years of development experience, a strong aptitude for learning new technologies, and a proven track record of meeting aggressive goals. My most notable skills include:</p> <br><p style="text-align: left;">  <li style="margin-left:3%;"><strong>Software Development:</strong> I bring over <span style="color: #FF6600">[Number]</span> years of experience developing software for multiple clients in various environments. I possess solid knowledge of <span style="color: #FF6600">[enter job-related skills]</span>. </li> <li style="margin-left:3%;"> <strong>Project Management:</strong> I have been successful in providing high-level technical direction to drive projects from conception and design through QA and deployment. </li> <li style="margin-left:3%;"> <strong>Communication Skills:</strong> I am comfortable communicating with technical and non-technical employees throughout the company in order to complete projects and achieve organizational goals. </li>  </p></div>
+      </div>
+      </div>
+      <div id="SECTION_CLSR972848357" class="section sectionCL" style="padding-top:0px;">
+        <div id="PARAGRAPH_972848357_1_643003110" class="paragraph firstparagraph">
+        <div class="field singlecolumn" id="972848357FRFM1"><p style="text-align: left;">Overall, I feel that my knowledge as a programmer and my passion for new technologies makes me the ideal candidate to meet your development needs. I&#39;d be glad to discuss my abilities and background with you in more detail. Thank you for your time and consideration.</p> <br> <p style="text-align: left;">Sincerely,</p> <br> <p style="text-align: left;">  </p>     Suresh Sivanantham.</div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

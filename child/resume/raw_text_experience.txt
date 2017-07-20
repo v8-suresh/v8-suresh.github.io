@@ -1,0 +1,118 @@
+
+Built, tested and deployed scalable, highly available and modular software products.
+Streamlined deployment process by developing continuous integration tools.
+Strengthened developmental methodologies by introducing a code quality document.
+Wrote and implemented scripts to enhance user experience and integrated scripts with the CMS.
+Designed and developed transactional and analytical data structures.
+Developed shared central authentication system in [Programming Language] for intranet applications.
+Modified existing software to correct errors, adapt to new hardware and improve performance.
+Coded [Number] websites using [Programming language].
+Drafted comprehensive reports to document bugs and design flaws.
+Designed new product elements such as image recognition, hand writing recognition, audio, video and device-to-device communication.
+Designed [Application type] application components.
+Implemented innovative systems for data collection, storage and management of customer orders.
+Wrote on [Platform name] using [Program name].
+Worked closely with clients to establish problem specifications and system designs.
+Performed regression and system-level testing to verify software quality and function before it was released.
+Wrote [Programming language] applications in [Architecture name] architecture.
+Designed and developed [Number] computer software web applications.
+Identified and suggested new technologies and tools for enhancing product value and increasing team productivity.
+Designed intuitive graphical user interfaces using knowledge of serial communications and database design.
+Created, delivered and maintained scalable system architecture to support a high-availability internet site with various internal applications.
+Developed the next generation integration platform for internal applications.
+Analyzed and designed relational databases using [Program name].
+Oversaw major new enhancements to existing software systems.
+Collaborated with product management to design, build and test systems.
+Maintained existing applications and designed and delivered new applications.
+Debugged and modified software components.
+Collaborated with developers and performance engineers to enhance supportability and identify performance bottlenecks.
+Developed code fixes and enhancements for inclusion in future code releases and patches.
+Led a group of [Number] engineers in the design, and development of [Programming language]-based software solutions.
+Designed [Programming language]-based multi-threaded admin web applications.
+Wrote virtualization apps using [Programming language] to automate virtual machine orchestration.
+Contributed to the [Programming language] codebase used in the automated deployment of software on multiple virtual machines.
+Engineered configuration server in [Programming language] to reconfigure [Product name].
+Stress-tested server code to validate code changes.
+Assessed costs and risks associated with developing new features and products.
+Reviewed and approved all engineering, product and project scope documents prior to delivery.
+Integrated live, virtual and constructive programs into a cohesive product.
+Developed object-oriented software, including [Product name].
+Implemented process management system using [Programming language].
+Designed and implemented [Platform name] application for network traffic monitoring system.
+Monitored and updated back-end data by inter-communicating between [Programming language] and [Programming language].
+Evaluated multiple software solutions during early software architecture plotting and system migration planning stage.
+Implemented Search Engine Optimizations to improve search results and business flow.
+Built databases and table structures following n-tier architecture methodology for web applications.
+Evaluated potential software products based on new and existing system development and migration requirements.
+Implemented [Server name] for version control.
+
+Designed, developed and maintained web-based applications written in [Name of Programming Language].
+Developed front-end and back-end of web applications.
+Made recommendations and developed technical design for new application features.
+Oversaw implementation of application developments.
+Identified and corrected performance issues.
+Implemented pixel-perfect designs that exceeded user expectations.
+Collected data around every transaction and turned it into tools that helped users.
+Built and refined powerful machine learning models that automated decisions, prioritized work and changed the behavior of products in real time.
+Oversaw the daily performance of computer systems.
+Created and maintained databases, network accounts and programs for specific department needs.
+Evaluated and conducted technical and functional research and analysis.
+Reviewed technical documentation and procedures.
+Defined and documented technical best practices.
+Installed software, modified and repaired hardware and resolved technical issues.
+Built application platform foundation to support migration from client-server product lines to enterprise architectures and services.
+Recommended architectural improvements, design solutions and integration solutions.
+Developed data architecture design to enable analysts to perform targeted customer analysis.
+Established compatibility with third party software products by developing program for modification and integration.
+Developed and implemented complex Internet and Intranet applications on multiple platforms.
+Coordinated with systems partners to finalize designs and confirm requirements.
+Provided continued maintenance and development of bug fixes and patch sets for existing web applications.
+Diagnosed and troubleshooted UNIX and Windows processing problems and applied solutions to increase company efficiency.
+Ensured network, system and data availability and integrity through preventative maintenance and upgrades.
+Provided documentation on start-up, shut down and first level troubleshooting of processes to help desk staff.
+Implemented company policies, technical procedures and standards for preserving the integrity and security of data, reports and access.
+Streamlined and enhanced the corporate accounting and operations system.
+Designed strategic plan for component development practices to support future projects.
+Organized and created shooting schedules for graphic design team, supervising the progress of projects from production to post production.
+Designed Sharepoint masterpage and page layouts, serving as company's main Sharepoint support for all technical complications.
+Consistently met deadlines and requirements for all production work orders.
+Managed creative projects from concept to completion while managing outside vendors.
+Developed work-flow charts and diagrams to ensure production team compliance with client deadlines.
+Independently designed and executed company catalog for infrastructure support and development.
+Aligned office departments and increased inter-department communication and data sharing.
+Supervised and provided direction for six technical direct reports regarding network activities.
+Recommended network security standards to management.
+Monitored network performance and provided network performance statistical reports for both real-time and historical measurements.
+Trained junior members of IT team regarding network security and troubleshooting of data circuits.
+Advocated for end-users to perform testing and problem analysis for server, desktop and IT infrastructure work.
+Managed firewall, network monitoring and server monitoring both on- and off-site.
+Trained junior members of IT team regarding network security and troubleshooting of data circuits.
+Proposed technical feasibility solutions for new functional designs and suggested options for performance improvement of technical objects.
+Provided methodologies for object-oriented software development and efficient database design.
+Utilized a pipe and filter model to find bottlenecks and enable measurement of system resource usage and process behavior at boundary limits of all operations.
+Utilized a pipe and filter model to find bottlenecks and enable measurement of system resource usage and process behavior at boundary limits of all operations.
+Designed and implemented new server standards for core business services.
+Coached and mentored [Number] new staff members, including conducting performance reviews.
+Collaborated with business, UX and marketing teams to drive brand development and messaging.
+Maintained audiovisual equipment, including overhead projectors, laptops and video conferencing equipment.
+Delivered on-site IT and AV technical support for [Number] staff.
+Led the development team that created the web and mobile user interfaces for [Product name].
+Translated business goals, feature concepts and customer needs into prioritized product requirements and use cases.
+Developed and evolved the consumer-facing, multi-channel roadmap for desktop, mobile and mobile web applications.
+Collaborated with the sales, marketing and support teams to launch products on time and within budget.
+Maintained and monitored the server room, the wireless network and other server infrastructure.
+Set up staff workstations with PCs, Macs, phones and laptops.
+Created innovative and intuitive product features such as [Example].
+Completed an average of [Number] personal UI design, code reviews, and programming projects each quarter.
+Drove market research and built early-feature prototypes using wireframes and mock-up tools.
+Established criteria for each milestone within the product roadmap as a means to measure developmental progress.
+Partnered with the marketing team to translate product features into customer value propositions to be used in consumer messaging.
+Gathered detailed use cases and requirements through regular on-site visits, virtual meetings and customer advisory board sessions.
+Led bi-weekly Scrum planning meetings to develop team strategies and define project goals.
+Led communication with stakeholders regarding product goals and progress made.
+Translated technical specifications into detailed product requirements.
+Analyzed market trends and the competitive landscape to understand opportunities and potential value.
+Tested and implemented new technology-based global projects such as [Project].
+Coached and mentored [Number] new staff members, including conducting performance reviews.
+Collaborated with business, UX and marketing teams to drive brand development and messaging.
+Maintained audiovisual equipment, including overhead projectors, laptops and video conferencing equipment.

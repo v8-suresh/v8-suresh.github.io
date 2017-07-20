@@ -1,0 +1,117 @@
+
+Suresh Sivanantham
+
+Preserve Lake Drive
+Westchase, FL 33626
+Cell: 813-995-1939
+E-Mail: suresh.sivanantham@gmail.com
+
+            https://github.com/v8-suresh
+
+            https://www.linkedin.com/in/sivananthamsuresh
+
+Professional Summary
+
+Programmer successful at managing teams, driving progress toward project milestones, quality assurance and on-time delivery. Offers 10 years in application development using modern web technologies.
+
+Skills
+
+Java, J2EE
+Javascript(ECMA 6), NodeJS
+Spring, Struts, Hibernate, MyBatis, GWT
+Jersey REST
+Angular(all versions), React, Redux
+JQuery, Sencha ExtJS/Touch
+Docker, Amazon Web Services
+
+Oracle, mySQL, postgres, mongoDB
+Android, Cordova, Ionic
+GIT, SVN
+Maven, Gradle, Ant
+Grunt, Gulp, Webpack
+Windows, Unix, mac OS
+Japanese Language Expert
+
+Certifications
+
+					AWS Certified Developer - Associate.
+AWS Certified Solutions Architect - Associate.
+Japanese Language Proficiency Test (JLPT) 2007 – Level 3. .
+Sun Certified Java Programmer (SCJP) for Java Standard Edition – Java 5.0. 
+
+Work History
+
+August 2016 to Current
+NIELSEN OLDSMAR, FLORIDA
+Senior Software Engineer    
+
+Evaluated potential software products based on new and existing system development and migration requirements.
+Led a group of 6 engineers in the design, and development of Java, Angular and Docker - based software solutions.
+Built, tested and deployed scalable, highly available and modular software products.
+Modified existing software to correct errors, adapt to new hardware and improve performance.
+Collaborated with developers and performance engineers to enhance supportability and identify performance bottlenecks.
+Contributed to the jenkins shell script and mavel plugin codebase used in the automated deployment of software application.
+Built, tested and released highly efficient metadata driven component library. 
+Reviewed project goals and objectives with the project manager and design team.
+Identified and suggested new technologies and tools for enhancing product value and increasing team productivity.
+
+January 2016 to August 2016
+American Express Phoenix, Arizona, US
+Senior Software Engineer    
+
+Led a group of 8 engineers in the design, and development of  Java, Angular, jQuery - based software solutions.
+Evaluated multiple software solutions during early software architecture plotting and system migration planning stage.
+Oversaw major new enhancements to existing software systems.
+Built, tested and deployed scalable, highly available and modular software products.
+Modified existing software to correct errors, adapt to new hardware and improve performance.
+Reviewed and approved all engineering, product and project scope documents prior to delivery.
+
+March 2013 to January 2016
+Tata Consultancy Services Chennai, India & Oldsmar, FL, USA
+Assistant Consultant    
+
+Built, tested and deployed scalable, highly available and modular software products.
+Led a group of 4 engineers in the design, and development of Java, GWT - based software solutions.
+Streamlined deployment process by developing continuous integration tools.
+Modified existing software to correct errors, adapt to new hardware and improve performance.
+Worked closely with clients to establish problem specifications and system designs.
+Identified and suggested new technologies and tools for enhancing product value and increasing team productivity.
+Collaborated with product management to design, build and test systems.
+Developed code fixes and enhancements for inclusion in future code releases and patches.
+
+November 2009 to February 2013
+Wipro Technologies Chennai, India & Tokyo, Japan
+Senior Software Engineer    
+
+Built, tested and deployed scalable, highly available and modular software products.
+Evaluated potential software products based on new and existing system development and migration requirements.
+Collaborated with developers and performance engineers to enhance supportability and identify performance bottlenecks.
+Led a group of 3 engineers in the design, and development of Java, COBOL(unix) -based software solutions.
+Worked closely with clients to establish problem specifications and system designs.
+
+July 2009 to September 2009
+Corporater Inc Chennai, India
+Software Engineer    
+
+Wrote maintainable and extensible code in a team environment.
+Implemented designs, including experimentation and multiple iterations.
+Modified existing software to correct errors, upgrade interfaces and improve performance.
+Rapidly prototyped new capabilities to confirm feasibility.
+Directed software design and development while remaining focused on client needs.
+Worked effectively with design teams to ensure software solutions elevated client side experience.
+Interfaced with business analysts, developers and technical support to determine the best requirement specifications.
+Worked closely with other team members to plan, design and develop robust solutions in a timely manner.
+
+November 2006 to July 2009
+IVTL Infoview Technologies Pvt Ltd Chennai, India
+Programmer    
+
+Built, tested and deployed scalable, highly available and modular software products.
+Modified existing software to correct errors, adapt to new hardware and improve performance.
+Developed Applications on Java, Oracle Platform using Struts, Spring frameworks.
+Worked closely with clients to establish problem specifications and system designs.
+
+Education
+
+2006 GKM College of Engineering Chennai, India
+BACHELOR OF ENGINEERING Electrical and Electronics 

@@ -1,0 +1,445 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:doc="http://xsltsl.org/xsl/documentation/1.0" xmlns:dt="http://xsltsl.org/date-time" xmlns:str="http://xsltsl.org/string" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-16">
+    <title>Suresh Sivanantham</title>
+    <style type="text/css" id="static">
+        /* Reset browser defaults *//* --------------------------------------------------------------
+    Reset default browser CSS.
+    Based on work by Eric Meyer:
+    * http://meyerweb.com/eric/tools/css/reset/index.html
+    -------------------------------------------------------------- *//* v1.0 | 20080212 */html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+        {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+        }
+        body
+        {
+            line-height: 1;
+            background: #FFF;
+            text-align: left;
+			font-feature-settings: "liga" 0; 
+			-moz-font-feature-settings: "liga" off;
+        }
+        ol, ul
+        {
+            list-style: none;
+        }
+        blockquote, q
+        {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after, q:before, q:after
+        {
+            content: '';
+            content: none;
+        }
+        /* remember to define focus styles! */:focus
+        {
+            outline: 0;
+        }
+        /* remember to highlight inserts somehow! */ins
+        {
+            text-decoration: none;
+        }
+        del
+        {
+            text-decoration: line-through;
+        }
+        /* tables still need 'cellspacing="0"' in the markup */table
+        {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        a img
+        {
+            border: none;
+        }
+        /* Typography */
+        ul, li
+        {
+            list-style-type: disc;
+            margin: 0 0 0 10px;
+            padding: 0;
+        }
+        ul li
+        {
+            margin: 0 0 0 13px;
+        }
+        .clear
+        {
+            clear: both;
+            height: 0;
+        }
+        br.clear
+        {
+            line-height: 0;
+        }
+        div#document div.lowerborder
+        {
+            border-bottom: 3px solid;
+            margin-top: 2px;
+            display: block;
+        }
+        div#document div.SECTION_CNTC
+        {
+            padding-bottom: 6px;
+            margin-top: 0;
+        }
+        
+        
+        div#document div.SECTION_ALNK
+        {
+            padding-bottom: 6px;
+            margin-top: 0;
+        }
+        
+        div#document div.firstsection
+        {
+            margin-top: 0;
+        }
+        div.name
+        {
+            font-size: 15px;
+            line-height: 17px;
+            font-weight: bold;
+            padding: 0 0 1px 0;
+            /*border-top: 1px solid;*/
+            border-bottom: 1px solid;
+            font-variant: small-caps;
+            text-align: center;
+        }
+        div.logo
+        {
+            display: none;
+        }
+        div.paragraph
+        {
+            position: relative;
+        }
+        div.heading
+        {
+            clear: both;
+            font-weight: bold;
+        }
+        div.address
+        {
+            position: relative;
+            text-align: center;
+            font-size: 0.917em;
+            line-height: 1.25em;
+            margin-top: 11px;
+            word-wrap: break-word;
+        }
+        div.address li, div.address ul
+        {
+            display: inline;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        div.address li:before,.adnlLnks li:before /*Changed by Amit for LCMAIN-955*/
+        {
+            content: "\2022\0020";
+            vertical-align: bottom;
+        }
+        div.address li.first:before,.adnlLnks li.first:before /*Changed by Amit for LCMAIN-955*/
+        {
+            content: "";
+        }
+        div.address2
+        {
+            position: relative;
+            text-align: left;
+            font-size: 0.917em;
+            line-height: 1.25em;
+        }
+        span.jobtitle, span.companyname, span.degree
+        {
+            font-weight: bold;
+        }
+        span.paddedline
+        {
+            display: block;
+        }
+        .nodisplay
+        {
+            display: none;
+        }
+        .table_wrapper
+        {
+            width: 100%;
+            margin-top: 0;
+        }
+        table.twocol td
+        {
+            width: 50%;
+        }
+     table.skills, table.twocol {width: 100%;}
+        table.skills th, table.skills td
+        {
+            width: 20%;
+            text-align: center;
+        }
+        table.skills th
+        {
+            text-decoration: underline;
+        }
+        table.skills .skillname, table.skills .skillrating
+        {
+            text-align: left;
+            width: 35%;
+        }
+        table.skills .skillrating
+        {
+            width: 20%;
+        }
+        table.skills .skillyears, table.skills .skilllast
+        {
+            width: 19%;
+        }
+        table.skills .pad1
+        {
+            width: 5%;
+        }
+        table.skills .pad2, table.skills .pad3
+        {
+            width: 1%;
+        }
+        td.twocol_2
+        {
+            border-left: 1px solid #FEFDFD;
+        }
+        div.adnlLnks{text-align: center} /*Added by Amit for LCMAIN-955*/
+
+    /*FIX for FORCEFULLY making left margin ZERO for CL*/
+    div#document .sectionCL .paragraph {margin-top: 0!important;}
+    </style>
+    <style type="text/css" id="unparsed">
+    div#document {line-height: {$FTLH}px;}
+    div#document table {line-height: {$FTLH}px;}
+    div#document.pagesize {width: {$DOCW}px;}
+    div#document.vmargins {padding-top: {$TBMR}px; padding-bottom: {$TBMR}px;}
+    div#document.hmargins {padding-left: {$LRMR}px; padding-right: {$LRMR}px;}
+    div#document .section {margin-top: {$SCSP}px;}
+    div#document div.sectiontitle {font-size: {$HDSZ}px; line-height: {$HDLH}px;}
+    div#document div.heading {margin-bottom: {$SHMB}px;}
+    div#document div.paragraph {margin-top: {$PSPC}px;}
+    div#document div.firstparagraph {margin-top: 0;}
+    div#document .singlecolumn, div#document .maincolumn {margin-left: {$PIND}px; width: {$MACW}px;}
+    div#document table.skills td {padding-top: {$TDMT}px;}
+    .fontsize {font-size: {$FTSZ}px;}
+    .fontface {font-family: {$FTFC};}
+    div.name {font-size: {$NMSZ}px; line-height: {$NMLH}px;}
+    div.address {font-size: {$CISZ}px; line-height: {$CILH}px; margin-top: {$CIMT}px;}
+    div.address li:before {font-size: {$BTSZ}px;}
+    /*div#document-wrapper{background: url('http://testbed-net.livecareer.com:8080/img/bg-grid-5px.gif') repeat scroll 0% 0% transparent; width: 612px;}*/
+
+    /*FIX for Re-calculating width of singlecolumn for CL*/
+    div#document .sectionCL .singlecolumn {margin-left: 0!important; width: 100%;}
+    div.address2 {font-size: {$FTSZ}px; line-height: {$FTLH}px;}
+    .adnlLnks li {display:inline!important;} /*Added by Amit for LCMAIN-955*/
+  </style>
+    <style type="text/css" id="dynamic">
+    div#document {line-height: 20px;}
+    div#document table {line-height: 20px;}
+    div#document.pagesize {width: 552px;}
+    div#document.vmargins {padding-top: 12px; padding-bottom: 12px;}
+    div#document.hmargins {padding-left: 30px; padding-right: 30px;}
+    div#document .section {margin-top: 12px;}
+    div#document div.sectiontitle {font-size: 14px; line-height: 22px;}
+    div#document div.heading {margin-bottom: 10px;}
+    div#document div.paragraph {margin-top: 20px;}
+    div#document div.firstparagraph {margin-top: 0;}
+    div#document .singlecolumn, div#document .maincolumn {margin-left: 0px; width: 552px;}
+    div#document table.skills td {padding-top: 10px;}
+    .fontsize {font-size: 12px;}
+    .fontface {font-family: "Palatino Linotype", Palatino, serif;}
+    div.name {font-size: 24px; line-height: 56px;}
+    div.address {font-size: 11px; line-height: 19px; margin-top: 10px;}
+    div.address li:before {font-size: 14px;}
+    /*div#document-wrapper{background: url('http://testbed-net.livecareer.com:8080/img/bg-grid-5px.gif') repeat scroll 0% 0% transparent; width: 612px;}*/
+
+    /*FIX for Re-calculating width of singlecolumn for CL*/
+    div#document .sectionCL .singlecolumn {margin-left: 0!important; width: 100%;}
+    div.address2 {font-size: 12px; line-height: 20px;}
+    .adnlLnks li {display:inline!important;} /*Added by Amit for LCMAIN-955*/
+  </style>
+  <!-- INSERT BY TRANSFORMER. SELECTOR=head,LOCATION=append --><meta name="_globalsign-domain-verification" content="ZBniDfVDF5r6AMHLc1FJlg2LXz3IruNvy-I9v8rwEe" /></head>
+  <body>
+    <div id="document" class="fontsize fontface vmargins hmargins linespacing pagesize">
+      <div id="SECTION_PICT972833881" class=" firstsection" style="padding-top:0px;"></div>
+      <div id="SECTION_NAME972833880" class="section" style="padding-top:0px;">
+        <div id="PARAGRAPH_972833880_1_642994253" class="paragraph PARAGRAPH_NAME firstparagraph">
+                <div class="name">
+                    <span class="field" id="972833880FNAM1">Suresh</span><span></span>
+                    <span class="field" id="972833880LNAM1">Sivanantham</span>
+                </div>
+                <div class="lowerborder">
+                </div>
+            </div>
+      </div>
+      <div id="SECTION_CNTC972833876" class="section SECTION_CNTC" style="padding-top:0px;">
+        <div id="PARAGRAPH_972833876_1_642994254" class="paragraph PARAGRAPH_CNTC firstparagraph">
+                <div class="address">
+                    <ul>
+                        <li class="first"><span class="field" id="972833876STRT1">Preserve Lake Drive</span><span>, </span><span class="spaced field" id="972833876CITY1">Westchase</span><span>, </span><span class="spaced field" id="972833876STAT1">FL</span>
+                            <span class="spaced field" dependency="STAT+ZIPC" id="972833876ZIPC1">33626</span>
+                        </li>
+                        
+                        <li><span>Cell: </span><span class="field" id="972833876CPHN1">813-995-1939</span></li>
+                        <li><span class="field" id="972833876EMAI1">suresh.sivanantham@gmail.com</span></li>
+                    </ul>
+					
+                    
+                    
+                    
+                </div>
+            </div>
+      </div>
+      <div id="SECTION_ALNK972846469" class="section SECTION_ALNK" style="padding-top:0px;">
+        <div id="PARAGRAPH_972846469_1_643002025" class="paragraph firstparagraph">
+                <div class="adnlLnks singlecolumn">
+                    <ul>
+                        <li class="first"><span class="field" id="972846469LNK11"><a target="_blank" href="https://github.com/v8-suresh">https://github.com/v8-suresh</a></span></li>
+                        <li><span class="field" id="972846469LNK21"><a target="_blank" href="https://www.linkedin.com/in/sivananthamsuresh">https://www.linkedin.com/in/sivananthamsuresh</a></span></li>
+                        
+                    </ul>
+                </div>
+            </div>
+      </div>
+      <div id="SECTION_SUMM972833882" class="section" style="padding-top:0px;">
+        <div class="heading">
+                <div id="SECTNAME_SUMM972833882" class="sectiontitle">Professional Summary</div>
+            </div>
+        <div id="PARAGRAPH_972833882_1_643001855" class="paragraph firstparagraph">
+                <div class="field singlecolumn" id="972833882FRFM1">Programmer successful at managing teams, driving progress toward project milestones, quality assurance and on-time delivery. Offers 10 years in application development using <font>modern web technologies.</font></div>
+            </div>
+      </div>
+      <div id="SECTION_HILT972833879" class="section" style="padding-top:0px;">
+        <div class="heading">
+                <div id="SECTNAME_HILT972833879" class="sectiontitle">Skills</div>
+            </div>
+        <div id="PARAGRAPH_972833879_1_643001698" class="paragraph firstparagraph">
+                <div class="singlecolumn maincolumn">
+                    <table class="twocol">
+                        <tr>
+                            <td class="field twocol_1" id="972833879SKC11"><p>Java, J2EE</p><p>Javascript(ECMA 6), NodeJS</p><p>Spring, Struts, Hibernate, MyBatis, GWT</p><p>Jersey REST</p><p>Angular(all versions), React, Redux</p><p>JQuery, Sencha ExtJS/Touch</p><p>Docker, Amazon Web Services</p><p><br></p></td>
+                            <td class="field twocol_2" id="972833879SKC21"><p>Oracle, mySQL, postgres, mongoDB</p><p>Android, Cordova, Ionic</p><p>GIT, SVN</p><p>Maven, Gradle, Ant</p><p>Grunt, Gulp, Webpack</p><p>Windows, Unix, mac OS</p><p>Japanese Language Expert</p></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+      </div>
+      <div id="SECTION_CERT972846468" class="section" style="padding-top:0px;">
+        <div class="heading">
+                <div id="SECTNAME_CERT972846468" class="sectiontitle">Certifications</div>
+            </div>
+        <div id="PARAGRAPH_972846468_1_643002160" class="paragraph firstparagraph">
+                <div class="field singlecolumn" id="972846468FRFM1"><p>
+		
+	
+	
+		
+			
+				
+					AWS Certified Developer - Associate.</p><p>AWS Certified Solutions Architect - Associate.</p><p>Japanese Language Proficiency Test (JLPT) 2007 – Level 3. .</p><p>Sun Certified Java Programmer (SCJP) for Java Standard Edition – Java 5.0. 
+				
+			
+		</p></div>
+            </div>
+      </div>
+      <div id="SECTION_EXPR972833878" class="section" style="padding-top:0px;">
+        <div class="heading">
+                <div id="SECTNAME_EXPR972833878" class="sectiontitle">Work History</div>
+            </div>
+        <div id="PARAGRAPH_972833878_1_642997774" class="paragraph firstparagraph">
+                <div class="singlecolumn">
+                    <span class="paddedline" style="display: inline;"><span class="jobtitle" id="972833878JTIT1">Senior Software Engineer</span><span>, </span>
+                    </span><span class="paddedline" style="display: inline;"><span class="jobdates" format="%m/%Y" id="972833878JSTD1">08/2016</span><span>
+                            to </span><span class="jobdates" format="%m/%Y" id="972833878EDDT1">Current</span><br>
+                    </span><span class="paddedline"><span class="companyname" id="972833878COMP1">NIELSEN</span><span> – </span>
+                        <span class="joblocation jobcity" id="972833878JCIT1">Oldsmar</span><span>,
+                        </span><span class="joblocation jobstate" id="972833878JSTA1">Florida</span><br>
+                    </span><span class="jobline" id="972833878JDES1"><ul><li>Evaluated potential software products based on new and existing system development and migration requirements.<br></li><li>Led a group of 6 engineers in the design, and development of Java, Angular and Docker - based software solutions.</li><li>Built, tested and deployed scalable, highly available and modular software products.</li><li>Modified existing software to correct errors, adapt to new hardware and improve performance.</li><li>Collaborated with developers and performance engineers to enhance supportability and identify performance bottlenecks.</li><li>Contributed to the jenkins shell script and mavel plugin codebase used in the automated deployment of software application.</li><li>Built, tested and released highly efficient metadata driven component library. </li><li>Reviewed project goals and objectives with the project manager and design team.</li><li>Identified and suggested new technologies and tools for enhancing product value and increasing team productivity.</li></ul></span>
+                </div>
+            </div>
+        <div id="PARAGRAPH_972833878_2_642998016" class="paragraph">
+                <div class="singlecolumn">
+                    <span class="paddedline" style="display: inline;"><span class="jobtitle" id="972833878JTIT2">Senior Software Engineer</span><span>, </span>
+                    </span><span class="paddedline" style="display: inline;"><span class="jobdates" format="%m/%Y" id="972833878JSTD2">01/2016</span><span>
+                            to </span><span class="jobdates" format="%m/%Y" id="972833878EDDT2">08/2016</span><br>
+                    </span><span class="paddedline"><span class="companyname" id="972833878COMP2">American Express</span><span> – </span>
+                        <span class="joblocation jobcity" id="972833878JCIT2">Phoenix, Arizona</span><span>,
+                        </span><span class="joblocation jobstate" id="972833878JSTA2">US</span><br>
+                    </span><span class="jobline" id="972833878JDES2"><ul><li>Led a group of 8 engineers in the design, and development of  Java, Angular, jQuery - based software solutions.</li><li>Evaluated multiple software solutions during early software architecture plotting and system migration planning stage.</li><li>Oversaw major new enhancements to existing software systems.</li><li>Built, tested and deployed scalable, highly available and modular software products.</li><li>Modified existing software to correct errors, adapt to new hardware and improve performance.</li><li>Reviewed and approved all engineering, product and project scope documents prior to delivery.</li></ul></span>
+                </div>
+            </div>
+        <div id="PARAGRAPH_972833878_3_642998368" class="paragraph">
+                <div class="singlecolumn">
+                    <span class="paddedline" style="display: inline;"><span class="jobtitle" id="972833878JTIT3">Assistant Consultant</span><span>, </span>
+                    </span><span class="paddedline" style="display: inline;"><span class="jobdates" format="%m/%Y" id="972833878JSTD3">03/2013</span><span>
+                            to </span><span class="jobdates" format="%m/%Y" id="972833878EDDT3">01/2016</span><br>
+                    </span><span class="paddedline"><span class="companyname" id="972833878COMP3">Tata Consultancy Services</span><span> – </span>
+                        <span class="joblocation jobcity" id="972833878JCIT3">Chennai, India & Oldsmar, FL</span><span>,
+                        </span><span class="joblocation jobstate" id="972833878JSTA3">USA</span><br>
+                    </span><span class="jobline" id="972833878JDES3"><ul><li>Built, tested and deployed scalable, highly available and modular software products.</li><li>Led a group of 4 engineers in the design, and development of Java, GWT - based software solutions.</li><li>Streamlined deployment process by developing continuous integration tools.</li><li>Modified existing software to correct errors, adapt to new hardware and improve performance.</li><li>Worked closely with clients to establish problem specifications and system designs.</li><li>Identified and suggested new technologies and tools for enhancing product value and increasing team productivity.</li><li>Collaborated with product management to design, build and test systems.</li><li>Developed code fixes and enhancements for inclusion in future code releases and patches.<br></li></ul></span>
+                </div>
+            </div>
+        <div id="PARAGRAPH_972833878_4_642998705" class="paragraph">
+                <div class="singlecolumn">
+                    <span class="paddedline" style="display: inline;"><span class="jobtitle" id="972833878JTIT4">Senior Software Engineer</span><span>, </span>
+                    </span><span class="paddedline" style="display: inline;"><span class="jobdates" format="%m/%Y" id="972833878JSTD4">11/2009</span><span>
+                            to </span><span class="jobdates" format="%m/%Y" id="972833878EDDT4">02/2013</span><br>
+                    </span><span class="paddedline"><span class="companyname" id="972833878COMP4">Wipro Technologies</span><span> – </span>
+                        <span class="joblocation jobcity" id="972833878JCIT4">Chennai, India & Tokyo</span><span>,
+                        </span><span class="joblocation jobstate" id="972833878JSTA4">Japan</span><br>
+                    </span><span class="jobline" id="972833878JDES4"><ul><li>Built, tested and deployed scalable, highly available and modular software products.</li><li>Evaluated potential software products based on new and existing system development and migration requirements.</li><li>Collaborated with developers and performance engineers to enhance supportability and identify performance bottlenecks.</li><li>Led a group of 3 engineers in the design, and development of Java, COBOL(unix) -based software solutions.</li><li>Worked closely with clients to establish problem specifications and system designs.</li></ul></span>
+                </div>
+            </div>
+        <div id="PARAGRAPH_972833878_5_642998914" class="paragraph">
+                <div class="singlecolumn">
+                    <span class="paddedline" style="display: inline;"><span class="jobtitle" id="972833878JTIT5">Software Engineer</span><span>, </span>
+                    </span><span class="paddedline" style="display: inline;"><span class="jobdates" format="%m/%Y" id="972833878JSTD5">07/2009</span><span>
+                            to </span><span class="jobdates" format="%m/%Y" id="972833878EDDT5">09/2009</span><br>
+                    </span><span class="paddedline"><span class="companyname" id="972833878COMP5">Corporater Inc</span><span> – </span>
+                        <span class="joblocation jobcity" id="972833878JCIT5">Chennai</span><span>,
+                        </span><span class="joblocation jobstate" id="972833878JSTA5">India</span><br>
+                    </span><span class="jobline" id="972833878JDES5"><ul><li>Wrote maintainable and extensible code in a team environment.</li><li>Implemented designs, including experimentation and multiple iterations.</li><li>Modified existing software to correct errors, upgrade interfaces and improve performance.</li><li>Rapidly prototyped new capabilities to confirm feasibility.</li><li>Directed software design and development while remaining focused on client needs.</li><li>Worked effectively with design teams to ensure software solutions elevated client side experience.</li><li>Interfaced with business analysts, developers and technical support to determine the best requirement specifications.</li><li>Worked closely with other team members to plan, design and develop robust solutions in a timely manner.</li></ul></span>
+                </div>
+            </div>
+        <div id="PARAGRAPH_972833878_6_642999224" class="paragraph">
+                <div class="singlecolumn">
+                    <span class="paddedline" style="display: inline;"><span class="jobtitle" id="972833878JTIT6">Programmer</span><span>, </span>
+                    </span><span class="paddedline" style="display: inline;"><span class="jobdates" format="%m/%Y" id="972833878JSTD6">11/2006</span><span>
+                            to </span><span class="jobdates" format="%m/%Y" id="972833878EDDT6">07/2009</span><br>
+                    </span><span class="paddedline"><span class="companyname" id="972833878COMP6">IVTL Infoview Technologies Pvt Ltd</span><span> – </span>
+                        <span class="joblocation jobcity" id="972833878JCIT6">Chennai</span><span>,
+                        </span><span class="joblocation jobstate" id="972833878JSTA6">India</span><br>
+                    </span><span class="jobline" id="972833878JDES6"><ul><li>Built, tested and deployed scalable, highly available and modular software products.</li><li>Modified existing software to correct errors, adapt to new hardware and improve performance.</li><li>Developed Applications on Java, Oracle Platform using <font>Struts, Spring frameworks.</font></li><li>Worked closely with clients to establish problem specifications and system designs.</li></ul></span>
+                </div>
+            </div>
+      </div>
+      <div id="SECTION_EDUC972833877" class="section" style="padding-top:0px;">
+        <div class="heading">
+                <div id="SECTNAME_EDUC972833877" class="sectiontitle">Education</div>
+            </div>
+        <div id="PARAGRAPH_972833877_1_643000685" class="paragraph firstparagraph">
+                <div class="singlecolumn">
+                    <span class="paddedline"><span class="degree" id="972833877DGRE1">BACHELOR OF ENGINEERING</span><span>: </span><span class="programline" id="972833877STUY1">Electrical and Electronics</span><span>,
+                        </span><span class="jobdates" id="972833877GRYR1">2006</span><br>
+                    </span><span class="paddedline"><span class="companyname companyname_educ" id="972833877SCHO1">GKM College of Engineering</span><span> - </span><span class="joblocation jobcity" id="972833877SCIT1">Chennai</span><span>,
+                            </span><span class="joblocation jobstate" id="972833877SSTA1">India</span><br>
+                    </span><span class="field" id="972833877FRFM1"></span>
+                </div>
+            </div>
+      </div>
+      <div id="SECTION_ADDI972846467" class="section" style="padding-top:0px;"></div>
+    </div>
+  </body>
+</html>
